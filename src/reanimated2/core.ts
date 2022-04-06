@@ -379,7 +379,7 @@ if (!isWeb() && isConfigured()) {
       error: runOnJS(capturableConsole.error),
       info: runOnJS(capturableConsole.info),
     };
-    _setGlobalConsole(console);
+    // _setGlobalConsole(console);
     if (global.performance == null) {
       global.performance = {
         now: global._chronoNow,
